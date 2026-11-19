@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Anurodh Jha</title>
+<meta name="description" content="Anurodh Jha. PhD candidate, North Carolina A&T State University. Environmental epidemiology, machine learning, geospatial analysis."/>
+<meta name="color-scheme" content="light dark"/>
+<meta property="og:title" content="Anurodh Jha"/>
+<meta property="og:description" content="Environmental Epidemiology · Machine Learning · Geospatial Analysis"/>
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml"/>
+<link rel="stylesheet" href="css/style.css"/>
+<script>
+  /* apply saved theme before first paint to avoid a flash */
+  try { var t = localStorage.getItem("theme"); if (t) document.documentElement.setAttribute("data-theme", t); } catch (e) {}
+</script>
+</head>
+<body>
+
+<nav class="nav" id="nav" aria-label="Sections">
+  <a class="nav-home" href="#top">AJ</a>
+  <div class="nav-links" id="nav-links"></div>
+  <button class="theme-btn" id="theme-btn" type="button" aria-label="Toggle colour theme">
+    <span class="theme-dot"></span><span id="theme-label">AUTO</span>
+  </button>
+</nav>
+
+<main class="page" id="top">
+
+  <header class="hero" id="hero">
+    <div class="hero-meta">
+      <span id="hero-index"></span>
+      <span id="hero-place"></span>
+    </div>
+    <h1 class="hero-name" id="hero-name"></h1>
+    <p class="hero-tag accent" id="hero-tag"></p>
+    <p class="hero-aff muted" id="hero-aff"></p>
+    <hr class="rule draw"/>
+    <div class="rotator" id="rotator" aria-live="polite"></div>
+    <p class="hero-now muted small" id="hero-now"></p>
+    <div class="badges" id="badges"></div>
+  </header>
+
+  <div id="sections"></div>
+
+  <footer class="footer" id="footer">
+    <hr class="rule"/>
+    <div class="footer-row">
+      <span class="pulse" aria-hidden="true"><i class="ring"></i><i class="dot"></i></span>
+      <div class="footer-text">
+        <p class="footer-status" id="footer-status"></p>
+        <p class="footer-quote muted" id="footer-quote"></p>
+      </div>
+      <p class="footer-right muted" id="footer-right"></p>
+    </div>
+  </footer>
+
+</main>
+
+<script src="js/data.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
